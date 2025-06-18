@@ -28,10 +28,9 @@ GET /oauth/authorize
 | --------------- | -------- | ------ | ------------------------------------ |
 | `response_type` | ✅       | string | Must be `"code"`                     |
 | `client_id`     | ✅       | string | Application’s client ID              |
-| `client_secret` | ✅       | string | Application’s client secret          |
 | `scope`         | ✅       | string | Application's scopes: basic, email   |
 | `redirect_uri`  | ✅       | string | Application's Redirect Uri           |
-| `state`         | ❌       | string | Application’s client secret          |
+| `state`         | ❌       | string | State from user's application        |
 
 ## 🔐 Token Endpoint
 
